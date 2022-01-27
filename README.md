@@ -1,5 +1,7 @@
 <h1 align="center">My name is Garv Sachdev</h1>
 <h5 align="center">hello</h5>
+</br>
+</br>
 
 <img align="left" src="https://badgen.net/badge/i have/your ip/pink?icon=awesome">
 <img align="right" src="https://badgen.net/reddit/subscribers/r/okbhaibudbak"/>

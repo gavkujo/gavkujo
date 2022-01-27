@@ -1,8 +1,8 @@
 <h1 align="center">My name is Garv Sachdev</h1>
 <h5 align="center">hello</h5>
 
-<img align="left" src="https://img.shields.io/badge/need-sleep-blue">
-<img align="right" src="https://img.shields.io/badge/shinzou%20-sasageyo-brightgreen"/>
+<img align="left" src="https://badgen.net/badge/i have/your ip/:purple?icon=awesome">
+<img align="right" src="https://badgen.net/reddit/subscribers/r/okbhaibudbak"/>
 </br>
 </br>
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=gavkujo&hide=prs,issues,contribs&show_icons=true&theme=radical">

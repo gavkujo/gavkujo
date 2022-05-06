@@ -7,13 +7,15 @@
 <img align="right" src="https://badgen.net/reddit/subscribers/r/okbhaibudbak"/>
 </br>
 </br>
+
 # Languages i know
-- [x] Java
-- [x] Python
-- [x] C++
-- [x] B.f.
-- [x] C#
-- [x] HTML,CSS, JS 
+-  [x] Java
+-  [x] Python
+-  [x] C++
+-  [x] B.f.
+-  [x] C#
+-  [x] HTML,CSS, JS 
+
 </br>
 </br>
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=gavkujo&hide=prs,issues,contribs&show_icons=true&theme=radical">

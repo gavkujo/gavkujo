@@ -12,7 +12,6 @@
 -  [x] Java
 -  [x] Python
 -  [x] C++
--  [x] B.f.
 -  [x] C#
 -  [x] HTML,CSS, JS 
 

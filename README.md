@@ -13,7 +13,8 @@
 -  [x] Python
 -  [x] C++
 -  [x] C#
--  [x] HTML,CSS, JS 
+-  [x] HTML,CSS, JS
+-  [x] C 
 
 </br>
 </br>

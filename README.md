@@ -4,17 +4,18 @@
 </br>
 
 <img align="left" src="https://badgen.net/badge/i have/your ip/pink?icon=awesome">
-<img align="right" src="https://badgen.net/reddit/subscribers/r/okbhaibudbak"/>
+<img align="right" src="https://badgen.net/reddit/subscribers/r/196"/>
 </br>
 </br>
 
-# Languages i know
+# Languages I know
 -  [x] Java
 -  [x] Python
 -  [x] C++
 -  [x] C#
--  [x] HTML,CSS, JS
--  [x] C 
+-  [x] HTML, CSS, JS, React
+-  [x] C
+-  [x] Love to learn more
 
 </br>
 </br>

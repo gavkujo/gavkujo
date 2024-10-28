@@ -3,8 +3,8 @@
 </br>
 </br>
 
-<img align="left" src="https://badgen.net/badge/i have/your ip/pink?icon=awesome">
-<img align="right" src="https://badgen.net/reddit/subscribers/r/196"/>
+<img align="left" src="https://badgen.net/badge/i have/your ip/purple?icon=awesome">
+<img align="right" src="https://badgen.net/badge/hawk/tuah/blue?icon=awesome""/>
 </br>
 </br>
 

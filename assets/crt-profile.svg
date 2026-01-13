@@ -72,7 +72,7 @@
     <text x="600" y="120" text-anchor="middle"
           font-size="48" fill="#ffb000" opacity="0.6"
           transform="translate(2,0)">
-      gav.exe
+      gavkujo (wip)
     </text>
 
     <text x="600" y="120" text-anchor="middle"
@@ -98,17 +98,17 @@
         rx="6" fill="#0b0f0d" stroke="#2cff9a"/>
 
   <text x="110" y="255" font-size="18" fill="#ffb000">
-    [ about me ]
+    [ placeholder ]
   </text>
 
   <text x="110" y="290" font-size="14" fill="#d0ffd8">
-    name     : gav
+    x     : x
   </text>
   <text x="110" y="315" font-size="14" fill="#d0ffd8">
-    status   : building things that shouldn’t exist
+    x   : x
   </text>
   <text x="110" y="340" font-size="14" fill="#d0ffd8">
-    uptime   : too long
+    x   : x
   </text>
 
   <!-- ================== HOBBIES BOX ================== -->
@@ -117,17 +117,17 @@
         rx="6" fill="#080c0a" stroke="#ffb000"/>
 
   <text x="110" y="485" font-size="18" fill="#2cff9a">
-    [ hobbies ]
+    [ x ]
   </text>
 
   <text x="110" y="520" font-size="14" fill="#e6ffe6">
-    • distributed systems
+    • x
   </text>
   <text x="110" y="545" font-size="14" fill="#e6ffe6">
-    • late-night commits
+    • x
   </text>
   <text x="110" y="570" font-size="14" fill="#e6ffe6">
-    • overengineering
+    • x
   </text>
 
   <!-- mild flicker -->
@@ -144,14 +144,14 @@
         rx="6" fill="#060807" stroke="#2cff9a"/>
 
   <text x="110" y="705" font-size="18" fill="#ffb000">
-    [ projects ]
+    [ x ]
   </text>
 
   <text x="110" y="740" font-size="14" fill="#d0ffd8">
-    ai-game-booths
+    x
   </text>
   <text x="110" y="765" font-size="14" fill="#d0ffd8">
-    cloud experiments
+    x
   </text>
 
   <rect x="80" y="670" width="1040" height="200"
@@ -161,7 +161,7 @@
 
   <text x="600" y="1040" text-anchor="middle"
         font-size="12" fill="#2cff9a" opacity="0.15">
-    SIGNAL OK
+    XXX
   </text>
 
 </svg>

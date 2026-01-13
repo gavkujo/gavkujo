@@ -1,0 +1,167 @@
+<!-- CRT SpaceHey-style GitHub Profile — single-file -->
+
+<svg width="100%" height="1200" viewBox="0 0 1200 1200"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- ================== DEFS ================== -->
+  <defs>
+    <!-- PHOSPHOR GLOW -->
+    <filter id="phosphor">
+      <feGaussianBlur stdDeviation="1.1" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- NOISE -->
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.18"/>
+      </feComponentTransfer>
+    </filter>
+
+    <!-- SCANLINES -->
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="rgba(0,0,0,0.4)" />
+    </pattern>
+
+    <!-- AMBER-GREEN GRADIENT -->
+    <linearGradient id="crtGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1aff8c"/>
+      <stop offset="65%" stop-color="#2cff9a"/>
+      <stop offset="100%" stop-color="#ffb000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ================== BACKGROUND ================== -->
+
+  <!-- OPTION A: GRADIENT BACKGROUND (default) -->
+  <rect width="1200" height="1200" fill="#020202"/>
+  <rect width="1200" height="1200" fill="url(#crtGradient)" opacity="0.08"/>
+
+  <!-- OPTION B: IMAGE BACKGROUND -->
+  <!--
+  <image href="https://example.com/background.png"
+         width="1200" height="1200" opacity="0.15"/>
+  -->
+
+  <!-- OPTION C: GIF BACKGROUND -->
+  <!--
+  <image href="https://example.com/background.gif"
+         width="1200" height="1200" opacity="0.18"/>
+  -->
+
+  <!-- SCANLINES + FLICKER -->
+  <rect width="1200" height="1200" fill="url(#scanlines)"/>
+  <rect width="1200" height="1200" fill="#000">
+    <animate attributeName="opacity"
+      values="0.04;0.12;0.06;0.18;0.08"
+      dur="0.15s"
+      repeatCount="indefinite"/>
+  </rect>
+
+  <!-- NOISE -->
+  <rect width="1200" height="1200" filter="url(#noise)" opacity="0.35"/>
+
+  <!-- ================== TITLE ================== -->
+
+  <g filter="url(#phosphor)">
+    <text x="600" y="120" text-anchor="middle"
+          font-size="48" fill="#ffb000" opacity="0.6"
+          transform="translate(2,0)">
+      gav.exe
+    </text>
+
+    <text x="600" y="120" text-anchor="middle"
+          font-size="48" fill="#1aff8c" opacity="0.5"
+          transform="translate(-2,0)">
+      gav.exe
+    </text>
+
+    <text x="600" y="120" text-anchor="middle"
+          font-size="48" fill="url(#crtGradient)">
+      gav.exe
+    </text>
+  </g>
+
+  <text x="600" y="155" text-anchor="middle"
+        font-size="14" fill="#ffb000" opacity="0.8">
+    amber / green crt terminal
+  </text>
+
+  <!-- ================== ABOUT BOX ================== -->
+
+  <rect x="80" y="220" width="1040" height="200"
+        rx="6" fill="#0b0f0d" stroke="#2cff9a"/>
+
+  <text x="110" y="255" font-size="18" fill="#ffb000">
+    [ about me ]
+  </text>
+
+  <text x="110" y="290" font-size="14" fill="#d0ffd8">
+    name     : gav
+  </text>
+  <text x="110" y="315" font-size="14" fill="#d0ffd8">
+    status   : building things that shouldn’t exist
+  </text>
+  <text x="110" y="340" font-size="14" fill="#d0ffd8">
+    uptime   : too long
+  </text>
+
+  <!-- ================== HOBBIES BOX ================== -->
+
+  <rect x="80" y="450" width="1040" height="180"
+        rx="6" fill="#080c0a" stroke="#ffb000"/>
+
+  <text x="110" y="485" font-size="18" fill="#2cff9a">
+    [ hobbies ]
+  </text>
+
+  <text x="110" y="520" font-size="14" fill="#e6ffe6">
+    • distributed systems
+  </text>
+  <text x="110" y="545" font-size="14" fill="#e6ffe6">
+    • late-night commits
+  </text>
+  <text x="110" y="570" font-size="14" fill="#e6ffe6">
+    • overengineering
+  </text>
+
+  <!-- mild flicker -->
+  <rect x="80" y="450" width="1040" height="180" fill="#000">
+    <animate attributeName="opacity"
+      values="0;0.07;0"
+      dur="1.8s"
+      repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ================== PROJECTS BOX ================== -->
+
+  <rect x="80" y="670" width="1040" height="200"
+        rx="6" fill="#060807" stroke="#2cff9a"/>
+
+  <text x="110" y="705" font-size="18" fill="#ffb000">
+    [ projects ]
+  </text>
+
+  <text x="110" y="740" font-size="14" fill="#d0ffd8">
+    ai-game-booths
+  </text>
+  <text x="110" y="765" font-size="14" fill="#d0ffd8">
+    cloud experiments
+  </text>
+
+  <rect x="80" y="670" width="1040" height="200"
+        filter="url(#noise)" opacity="0.2"/>
+
+  <!-- ================== BURN-IN ================== -->
+
+  <text x="600" y="1040" text-anchor="middle"
+        font-size="12" fill="#2cff9a" opacity="0.15">
+    SIGNAL OK
+  </text>
+
+</svg>

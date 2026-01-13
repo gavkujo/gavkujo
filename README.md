@@ -1,1 +1,2 @@
-<img src="assets/crt-profile.svg" width="100%" />
+<img src="assets/crt-profile.svg?v=2" width="100%" />
+

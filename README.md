@@ -1,2 +1,2 @@
-<img src="assets/anlghrr.svg?v=2" width="100%" />
+<img src="assets/anlghrrv2.svg" width="100%" />
 
